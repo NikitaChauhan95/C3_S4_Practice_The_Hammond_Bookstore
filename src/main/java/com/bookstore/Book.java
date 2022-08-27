@@ -8,12 +8,10 @@
 package com.bookstore;
 
 public class Book {
-   /* private long isbnNumber;
+    private long isbnNumber;
     private String title;
     private String description;
     private double price;
-
-    */
 
 
 }

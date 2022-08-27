@@ -20,4 +20,12 @@ public class Author extends Book {
         this.name = name;
         this.penName = penName;
     }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "name='" + name + '\'' +
+                ", penName='" + penName + '\'' +
+                '}';
+    }
 }

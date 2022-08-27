@@ -7,8 +7,9 @@
 
 package com.bookstore;
 
-/*public class BookImpl {
-    public static void main(String[] args) {
+public class BookImpl {
+}
+ /*public static void main(String[] args) {
         Book book = new Book();
 
         book.setIsbnNumber(4321578l);

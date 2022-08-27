@@ -16,4 +16,11 @@ public class Book {
     public Book() {
     }
 
+    public Book(long isbnNumber, String title, String description, double price) {
+        K
+        this.isbnNumber = isbnNumber;
+        this.title = title;
+        this.description = description;
+        this.price = price;
+    }
 }

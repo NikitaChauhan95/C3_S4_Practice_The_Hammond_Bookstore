@@ -55,4 +55,11 @@ public class Book {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    public void displayBookDetails() {
+        System.out.println("ISBN Number is : " + isbnNumber);
+        System.out.println("TITLE : " + title);
+        System.out.println("PRICE : $" + price);
+        System.out.println("DESCRIPTION : " + description);
+    }
 }

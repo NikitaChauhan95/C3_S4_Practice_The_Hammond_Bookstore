@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b90fd31-a0f9-47aa-9711-d2313c42ba7f" name="Changes" comment="created the Author class">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstore/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/Author.java" afterDir="false" />
+    <list default="true" id="3b90fd31-a0f9-47aa-9711-d2313c42ba7f" name="Changes" comment="created the toString method for author class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/BookImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstore/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,26 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="BookImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bookstore.BookImpl" />
+      <module name="C3_S4_Practice_The_Hammond_Bookstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bookstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BookImpl" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -107,7 +129,35 @@
       <option name="project" value="LOCAL" />
       <updated>1661624917561</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="created the fields for author class">
+      <created>1661625032574</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661625032574</updated>
+    </task>
+    <task id="LOCAL-00010" summary="created constructor without arguments for author class">
+      <created>1661625094945</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661625094945</updated>
+    </task>
+    <task id="LOCAL-00011" summary="created constructor for author class with arguments">
+      <created>1661625150651</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661625150651</updated>
+    </task>
+    <task id="LOCAL-00012" summary="created the toString method for author class">
+      <created>1661625300429</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661625300429</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +180,11 @@
     <MESSAGE value="created the constructor with arguments" />
     <MESSAGE value="created the getter and setter method" />
     <MESSAGE value="created the Author class" />
-    <option name="LAST_COMMIT_MESSAGE" value="created the Author class" />
+    <MESSAGE value="created the fields for author class" />
+    <MESSAGE value="created constructor without arguments for author class" />
+    <MESSAGE value="created constructor for author class with arguments" />
+    <MESSAGE value="created the toString method for author class" />
+    <option name="LAST_COMMIT_MESSAGE" value="created the toString method for author class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

@@ -17,9 +17,7 @@ public class BookImpl {
         book.setPrice(457.5);
         book.setDescription("This book is for WANDERERS");
 
-        /* book.displayBookDetails();
-
-         */
+         book.displayBookDetails();
 
 
     }

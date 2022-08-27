@@ -14,4 +14,10 @@ public class Author extends Book {
 
     public Author() {
     }
+
+    public Author(long isbnNumber, String title, String description, double price, String name, String penName) {
+        super(isbnNumber, title, description, price);
+        this.name = name;
+        this.penName = penName;
+    }
 }

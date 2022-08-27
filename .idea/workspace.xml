@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b90fd31-a0f9-47aa-9711-d2313c42ba7f" name="Changes" comment="created the toString method for author class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/BookImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstore/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/Book.java" afterDir="false" />
+    <list default="true" id="3b90fd31-a0f9-47aa-9711-d2313c42ba7f" name="Changes" comment="created main method in book impl class">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstore/BookImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/BookImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +155,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661625300429</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added the display book details method in book class">
+      <created>1661626704185</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661626704185</updated>
+    </task>
+    <task id="LOCAL-00014" summary="created book impl class">
+      <created>1661626761068</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661626761068</updated>
+    </task>
+    <task id="LOCAL-00015" summary="created main method in book impl class">
+      <created>1661626834806</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661626834806</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,9 +203,27 @@
     <MESSAGE value="created constructor without arguments for author class" />
     <MESSAGE value="created constructor for author class with arguments" />
     <MESSAGE value="created the toString method for author class" />
-    <option name="LAST_COMMIT_MESSAGE" value="created the toString method for author class" />
+    <MESSAGE value="added the display book details method in book class" />
+    <MESSAGE value="created book impl class" />
+    <MESSAGE value="created main method in book impl class" />
+    <option name="LAST_COMMIT_MESSAGE" value="created main method in book impl class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bookstore/BookImpl.java</url>
+          <line>11</line>
+          <properties class="com.bookstore.BookImpl">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

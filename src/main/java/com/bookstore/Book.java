@@ -13,15 +13,18 @@ public class Book {
     private String description;
     private double price;
 
+    Author author;
+
     public Book() {
     }
 
-    public Book(long isbnNumber, String title, String description, double price) {
 
+    public Book(long isbnNumber, String title, String description, double price, Author author) {
         this.isbnNumber = isbnNumber;
         this.title = title;
         this.description = description;
         this.price = price;
+        this.author = author;
     }
 
     public long getIsbnNumber() {
@@ -56,10 +59,19 @@ public class Book {
         this.price = price;
     }
 
+    public Author getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(Author author) {
+        this.author = author;
+    }
+
     public void displayBookDetails() {
         System.out.println("ISBN Number is : " + isbnNumber);
         System.out.println("TITLE : " + title);
         System.out.println("PRICE : $" + price);
         System.out.println("DESCRIPTION : " + description);
+        System.out.println("Author details : " + author);
     }
 }
